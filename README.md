@@ -20,3 +20,17 @@ https://github.com/LibreCAD/LibreCAD
 
 Point Cloud Library
 https://github.com/PointCloudLibrary
+
+
+# Serial Commands
+The Arduino code serial_seperator.ino should be used to interface dc geared motor with arduino UNO. The program also consists of commands to create a required movement of robot, having control over the distance and speed of the bot.
+
+Commands:
+f: Forward
+r: Reverse
+fr: Forward Right
+fl: Forward Left
+st: stop
+
+sample command:
+f:<distance_to_be_covered>:<PWM_speed>
